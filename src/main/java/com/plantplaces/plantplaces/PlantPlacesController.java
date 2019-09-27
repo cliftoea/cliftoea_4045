@@ -9,5 +9,10 @@ public class PlantPlacesController {
 	public String start() {
 		return "start";
 	}
+	
+	@RequestMapping("/")
+	public String index() {
+		return "start";
+	}
 
 }
